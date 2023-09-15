@@ -1,0 +1,297 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Libre+Caslon+Display&family=Old+Standard+TT&display=swap');
+
+html{
+    background-color:black;
+}
+
+
+body{
+    background:white;
+    margin:0!important;
+    width:90%;
+    height:80%;
+    margin:auto!important;
+    border: 2px solid white;
+    
+}
+
+/* HEADER ET BODY */
+
+header{
+    background: black;
+    width:100%;
+    min-height:40px;
+    max-height:250px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: white;
+}
+
+
+
+#box-titre-page{
+ /*  border:1px solid black; */
+    min-width: 40%;
+    max-width: 90%;
+    min-height: 20px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+
+}
+
+.box-titre-page-enfant{
+    /* border:1px solid black; */  /*Une dose d'actu..*/
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 0%;
+    text-align:center;
+}
+
+.separateur{
+    border:1px solid black;
+    min-width:30%;
+    max-width:50%;
+    margin:auto;
+} 
+
+/***********************************/
+
+
+#articles-box{
+    min-width:40vh;
+    max-width: 100vh;
+    min-height:40vh;
+    max-height:100vh;
+    border-radius:10px;
+    margin:auto;
+    margin-top:4%;
+    background-color:#ffffff4d;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50% 50%;
+    grid-gap: 5%;
+    margin-bottom:10%;
+    }
+
+    #articles-box > :first-child{
+        background-image:url('https://m105.ca/wp-content/uploads/2023/09/NEWS-Luc-Roy-homme-disparu-Capture-decran-photo-fournie-SQ.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
+
+    #articles-box > :nth-child(2){
+        background-image:url('https://mobile-img.lpcdn.ca/v2/924x/r3996/068ee88f753d3c4681b69627f9f02d63.webp');
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
+    
+    #articles-box > :nth-child(3){
+        background-image:url('https://mobile-img.lpcdn.ca/v2/924x/r3996/201de5bf68413215a07d27ec0a44f198.webp');
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
+
+    #articles-box > :nth-child(4){
+        background-image:url('https://mobile-img.lpcdn.ca/v2/924x/36aa287b/b8f5042747fd3344b86dcc2349cf4d63.webp');
+        background-size:cover;
+        background-position: center;
+        height: 100%;
+    }
+
+   #articles-box > :nth-child(5){
+        background-image:url('https://mobile-img.lpcdn.ca/v2/924x/r3996/45e2c7849d2437d3a9f66cca6c25c355.webp');
+        background-size:cover;
+        background-position:center;
+        height:100%;
+   }
+
+   #articles-box > :nth-child(6){
+        background-image:url('https://mobile-img.lpcdn.ca/v2/924x/r3996/ca9a5894f47a38a4b106ddd1899c1c00.webp');
+        background-size:cover;
+        background-position:center;
+        height:100%;
+   }
+
+
+
+    
+    .mini-box{
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px;
+        transition: all 0.3s ease;
+       
+    }
+
+    .mini-box:hover{
+        box-shadow: 10px 10px 15px;
+    }
+
+    
+    .titre-minibox{
+     
+    
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************/
+
+.titre-article{
+    /*  border: 1px solid black;       */ /* TITRE ARTICLE */
+    /*  min-width:30%; */
+    max-width:50%;
+    margin:auto;
+    min-height:20px;
+    max-height:1000px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: top 0%;
+    margin-bottom:0%;
+    word-wrap:break-word;
+    
+}
+
+.box-article{
+     /*border:1px solid black;  */  /*ARTICLE & IMAGE */
+    min-width:50%;
+    max-width:90%;
+    min-height:50vh;
+    margin:auto;
+}
+
+
+
+
+.box-image-article{
+   /*  border:1px solid black; */   /*BOITE IMAGE */
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    
+    
+}
+
+
+
+.article{           
+/* border: 1px solid black; */     /*BOITE TEXTE 1 */
+    width:80%;
+    max-width:100%;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    margin-top:0%;
+    
+}
+
+.article-texte{
+    /*border:1px solid red;    */    /* BOITE TEXTE 2 */
+    max-width:80%;
+    margin:auto;
+    word-wrap:break-word;
+    border-bottom: 1px solid black;
+    margin-bottom:2%;
+}
+
+#footer{                        /* FOOTER */
+background-color: black;
+min-height: 50px;
+max-height:100px;
+width:100%;
+margin:0!important;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+
+
+p{
+    font-family: 'Libre Caslon Display', serif;
+    font-size:1.5em;
+    padding:1%;
+    text-indent: 0.3em;
+    
+}
+
+
+
+
+h1{
+    text-align: center;
+    font-size:400%;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+
+h2{
+    text-align:center;
+    font-size:200%;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+img{
+    object-fit:cover;
+    height:40%;
+    width:40%;;
+    border:1px solid black; 
+    border-radius: 6px;
+}
+
+
+
+
+  
+  /* Styles pour les écrans de taille inférieure à 768px */
+  @media screen and (max-width: 767px) {
+  p{
+    font-size:20px;
+  }
+
+  #article{
+    min-width:100%;
+    width:100%;
+  }
+
+  #article-texte{
+    min-width:100%;
+    width:100%;
+  }
+
+  .article{
+    min-width:100%;
+    width:100%;
+  }
+
+  img{
+    min-width:100%;
+  }
+
+  #titre-article{
+min-width:90%;
+  }
+  }
